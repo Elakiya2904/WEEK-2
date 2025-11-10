@@ -5,7 +5,7 @@
 ### 🤖 Model Creation and Training
 
 This week focuses on building and training a Machine Learning (ML) model that predicts the driving range of Electric Vehicles (EVs) using vehicle specifications, trip data, and environmental features.
-The goal is to create a reliable model that can be later integrated into the Generative AI chatbot for interactive range insights.
+The goal is to create a reliable model that can later be integrated into the Generative AI chatbot for interactive range insights.
 ---
 
 ### 🧠 Selected Model: Random Forest Regressor
