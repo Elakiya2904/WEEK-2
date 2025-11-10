@@ -1,5 +1,59 @@
 # ⚡ Predicting Electric Vehicle (EV) Range and Building a Generative AI Chatbot
 
+## WEEK-2
+
+### 🤖 Model Creation and Training
+
+This week focuses on building and training a Machine Learning (ML) model that predicts the driving range of Electric Vehicles (EVs) using vehicle specifications, trip data, and environmental features.
+The goal is to create a reliable model that can be later integrated into the Generative AI chatbot for interactive range insights.
+---
+
+### 🧠 Selected Model: Random Forest Regressor
+
+The Random Forest Regressor is an ensemble-based supervised learning algorithm that builds multiple decision trees and combines their results to improve prediction accuracy and reduce overfitting.
+---
+
+### ⚙️ Why Random Forest?
+
+- Handles non-linear relationships between EV parameters and driving range.
+
+- Works effectively with mixed data types (numerical and categorical).
+
+- Provides feature importance, helping us understand key factors influencing range.
+
+- Offers high accuracy and robustness against noise and outliers.
+---
+
+### 🧩 Model Development Steps
+
+# Data Cleaning & Preprocessing:
+
+- Removed missing and duplicate values.
+
+- Encoded categorical variables using one-hot encoding.
+
+- Split dataset into training (80%) and testing (20%) sets.
+
+# Model Training:
+
+- Used RandomForestRegressor from scikit-learn.
+
+- Tuned parameters such as number of trees (n_estimators) and depth.
+
+# Evaluation Metrics:
+
+- Mean Absolute Error (MAE): Measures average prediction error.
+
+- R² Score: Indicates how well the model explains the data variance.
+
+### 📊 Model Performance
+Metric	Value (Approx.)
+Mean Absolute Error (MAE)	~10–15 km
+R² Score	~0.85–0.90
+
+✅ The model achieved strong prediction accuracy, showing it can effectively estimate EV driving range across different conditions.
+---
+
 # WEEK-1
 
 ### 🧠 Project Overview
